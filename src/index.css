@@ -36,11 +36,9 @@ code {
 @font-face {
   font-family: 'Doto';
   src: url('./assets/fonts/Assistant,Edu_AU_VIC_WA_NT_Pre/Doto/Doto-VariableFont_ROND,wght.ttf') format('truetype'),
-       url('./assets/fonts/Assistant,Edu_AU_VIC_WA_NT_Pre/Doto/static/Doto-Regular.ttf') format('truetype');
-  font-weight: normal;
+       url('./assets/fonts/Assistant,Edu_AU_VIC_WA_NT_Pre/Doto/static/Doto-Regular.ttf') format('truetype'),
+       url('./assets/fonts/Assistant,Edu_AU_VIC_WA_NT_Pre/Doto/static/Doto_Rounded-ExtraBold.ttf') format('truetype'),
+       url('./assets/fonts/Assistant,Edu_AU_VIC_WA_NT_Pre/Doto/static/Doto-Bold.ttf') format('truetype');
+  font-weight: bolder;
   font-style: normal;
-}
-
-body{
-  font-family: 'Assistant', sans-serif;
 }

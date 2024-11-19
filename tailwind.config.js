@@ -9,7 +9,15 @@ module.exports = {
         assisant:['Assistant', 'sans-serif'],
         eu: ['Eu', 'sans-serif'],
         doto: ['Doto', 'sans-serif'],
-      }
+      },
+      animation:{
+        blink: 'blink 0.7 s step-end infinite',
+      },
+      keyframes:{
+        blink:{
+          '50%': {opacity: 0}
+        }
+      },
     },
   },
   plugins: [],
