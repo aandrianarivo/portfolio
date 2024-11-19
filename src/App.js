@@ -1,12 +1,27 @@
-// import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import Navbar from './components/nav/navbar';
 
-function App() {
+const App = () => {
   return (
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
-  )
-}
+    <div className="relative min-h-screen">
+      <Navbar />
+      <div className="pt-20">
+        {/* Contenu de la page */}
+        <section id="home" className="h-screen bg-gray-200">
+          <h1>Home</h1>
+        </section>
+        <section id="about" className="h-screen bg-gray-300">
+          <h1>About</h1>
+        </section>
+        <section id="services" className="h-screen bg-gray-400">
+          <h1>Services</h1>
+        </section>
+        <section id="contact" className="h-screen bg-gray-500">
+          <h1>Contact</h1>
+        </section>
+      </div>
+    </div>
+  );
+};
 
 export default App;

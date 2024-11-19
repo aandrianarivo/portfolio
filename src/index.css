@@ -15,3 +15,32 @@ code {
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: 'Eu';
+  src: url('./assets/fonts/Assistant,Edu_AU_VIC_WA_NT_Pre/Edu_AU_VIC_WA_NT_Pre/static/EduAUVICWANTPre-SemiBold.ttf') format('truetype'),
+       url('./assets/fonts/Assistant,Edu_AU_VIC_WA_NT_Pre/Edu_AU_VIC_WA_NT_Pre/static/EduAUVICWANTPre-Regular.ttf') format('truetype'),
+       url('./assets/fonts/Assistant,Edu_AU_VIC_WA_NT_Pre/Edu_AU_VIC_WA_NT_Pre/static/EduAUVICWANTPre-Bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Assistant';
+  src: url('./assets/fonts/Assistant,Edu_AU_VIC_WA_NT_Pre/Assistant/Assistant-VariableFont_wght.ttf') format('truetype'),
+       url('./assets/fonts/Assistant,Edu_AU_VIC_WA_NT_Pre/Assistant/static/Assistant-Regular.ttf') format('truetype'),
+       url('./assets/fonts/Assistant,Edu_AU_VIC_WA_NT_Pre/Assistant/static/Assistant-Bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Doto';
+  src: url('./assets/fonts/Assistant,Edu_AU_VIC_WA_NT_Pre/Doto/Doto-VariableFont_ROND,wght.ttf') format('truetype'),
+       url('./assets/fonts/Assistant,Edu_AU_VIC_WA_NT_Pre/Doto/static/Doto-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body{
+  font-family: 'Assistant', sans-serif;
+}
