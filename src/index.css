@@ -42,3 +42,10 @@ code {
   font-weight: bolder;
   font-style: normal;
 }
+
+@font-face {
+  font-family: 'Anton';
+  src: url('./assets/fonts/Assistant,Edu_AU_VIC_WA_NT_Pre/Anton/Anton-Regular.ttf') format('truetype');
+  font-weight: bolder;
+  font-style: normal;
+}
