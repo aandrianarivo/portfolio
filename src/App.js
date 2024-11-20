@@ -3,25 +3,11 @@ import Navbar from './components/nav/navbar';
 import TypingEffect from './typing/typing';
 import Hero from './hero/hero';
 import ImageCarousel from './imageCarousel/imageCarousel';
-import reactImage from "./assets/images/react.png";
-import vue from "./assets/images/vueJs.png";
-import spring from "./assets/images/spring-boot.png"
+import { tabsOfSkillsBackend, tabsOfSkillsFront } from './data';
+
 
 const App = () => {
-  const tabsOfSkillsFront = [
-    {imageUrl: reactImage ,alt:"react"},
-    {imageUrl: vue ,alt:"vue"}, 
-    {imageUrl: vue ,alt:"vue"}, 
-    {imageUrl: vue ,alt:"vue"}, 
-    {imageUrl: vue ,alt:"vue"}, 
-  ]
-  const tabsOfSkillsBackend = [
-    {imageUrl: spring ,alt:"spring"},
-    {imageUrl: spring ,alt:"spring"},
-    {imageUrl: spring ,alt:"spring"},
-    {imageUrl: spring ,alt:"spring"},
-    {imageUrl: spring ,alt:"spring"},
-  ]
+
   return (
     <div className=" bg-gradient-to-r from-slate-50 to-gray-100 p-10 font-assisant relative min-h-screen">
       <Navbar />
