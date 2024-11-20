@@ -12,7 +12,7 @@ const App = () => {
         
         <section id="home" className=" m-4 flex w-full h-full max-sm:flex-col max-sm:items-center max-sm:justify-center text-center shadow-2xl " >
           <div className='w-1/2'>
-            <h1 className='text-5xl font-assisant font-semibold text-gray-500 text-center'>ANDRIANRIVO Anthony</h1>
+            <h1 className='text-5xl m-2 font-assistant font-extrabold text-gray-500 text-center'>ANDRIANRIVO Anthony</h1>
             <TypingEffect/>
           </div>
           <div className="w-1/2">
@@ -21,6 +21,9 @@ const App = () => {
         </section>
         <section id="about" className=" m-4 p-4 bg-gradient-to-t from-slate-800 to-gray-800  h-screen ">
           <h1>About</h1>
+        </section>
+        <section id="skills" className=" m-4 p-4 bg-gradient-to-l from-zinc-700 to-gray-500  h-screen ">
+          <h1>Skills</h1>
         </section>
         <section id="services" className=" m-4 p-4 bg-gradient-to-l from-zinc-700 to-gray-500  h-screen ">
           <h1>Services</h1>

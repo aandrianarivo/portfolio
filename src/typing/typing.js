@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 
 const TypingEffect = () => {
-  const words = ['Developer JavaScript', 'Backend lover!!', 'FullStack', "Web Mapping","Boy Scout"]; // Liste de mots
+  const words = ['Software developper','Developer JavaScript', 'Backend lover!!']; // Liste de mots
   const [text, setText] = useState('');
   const [isDeleting, setIsDeleting] = useState(false);
   const [wordIndex, setWordIndex] = useState(0); // Suivre l'index du mot actuel
