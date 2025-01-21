@@ -23,7 +23,7 @@ const Navbar = () => {
 
   return (
     <nav
-      className={` fixed w-fit rounded-md top-3 left-1/2 shadow-lg transform -translate-x-1/2 p-4 transition-all duration-300 ${isScrolled ? 'bg-white bg-opacity-10 backdrop-blur-xl shadow-lg' : 'bg-transparent'}`}
+      className={` fixed w-fit rounded-md top-3 left-1/2 transform -translate-x-1/2 p-4 transition-all duration-300 ${isScrolled ? 'bg-white bg-opacity-10 backdrop-blur-xl shadow-lg' : 'bg-transparent'}`}
     >
 
       <div className="max-w-7xl mx-auto flex justify-center items-center">
