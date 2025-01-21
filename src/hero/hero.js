@@ -1,4 +1,4 @@
-import heroImage from "../assets/avatar-miron-vitold.png"
+import heroImage from "../assets/images/avatar-miron-vitold.png"
 const Hero = () => {
   return (
     <div className="flex justify-center items-center">
