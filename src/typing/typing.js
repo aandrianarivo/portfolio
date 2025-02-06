@@ -1,7 +1,7 @@
 import React, { useEffect, useState, useMemo } from 'react';
 
 const TypingEffect = () => {
-  const words = useMemo(() => ['Software developper','Developer JavaScript', 'Backend lover!!'], []); // Liste de mots
+  const words = useMemo(() => ['Software developper', 'Developer JavaScript', 'Backend lover!!'], []); // Liste de mots
   const [text, setText] = useState('');
   const [isDeleting, setIsDeleting] = useState(false);
   const [wordIndex, setWordIndex] = useState(0); // Suivre l'index du mot actuel
@@ -32,10 +32,16 @@ const TypingEffect = () => {
   }, [words, text, currentWord, isDeleting, wordIndex]);
 
   return (
-    <div className="text-4xl text-center">
-      <span className='font-doto font-extrabold'>{text}</span>
-      <span className="animate-blink">|</span>
-    </div>
+    <>
+      <div className="text-xl md:text-4xl text-center">
+        <span className='font-doto font-extrabold'>{text}</span>
+        <span className="animate-blink">|</span>
+      </div>
+      {/* <div className="text-xl md:hidden text-center">
+        <span className='font-doto font-extrabold'>Hey</span>
+        <span className="">|</span>
+      </div> */}
+    </>
   );
 };
 
